@@ -39,7 +39,7 @@ ng add @angular/material
 ## Generate components:
 ng generate component component-name-to-be-generated
 
-## Para receber propriedades configuradas na tag html do componente:
+## To receive properties configured on html tag of a custom component:
 import { Component, OnInit, Input } from '@angular/core';
 
 @Input() hero?: Hero; # hero é a propriedade
@@ -51,5 +51,5 @@ import { Component, OnInit, Input } from '@angular/core';
 ng generate service hero
 
 ## Inject service:
-Usar a DI no construtor
+Use DI in component class constructor
 
