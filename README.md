@@ -25,3 +25,31 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## To initiate a new Angular Project:
+Create the project:
+ng new name-of-the-project
+
+## Add navigation and create routes:
+ng generate module app-routing --flat --module=app
+
+## Adding Angular Material:
+ng add @angular/material
+
+## Generate components:
+ng generate component component-name-to-be-generated
+
+## Para receber propriedades configuradas na tag html do componente:
+import { Component, OnInit, Input } from '@angular/core';
+
+@Input() hero?: Hero; # hero é a propriedade
+
+## Use component in another component:
+<name-of-the-component [hero]="selectedHero"></name-of-the-component>
+
+## Generate service:
+ng generate service hero
+
+## Inject service:
+Usar a DI no construtor
+
