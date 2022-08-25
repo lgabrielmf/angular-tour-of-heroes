@@ -53,3 +53,5 @@ ng generate service hero
 ## Inject service:
 Use DI in component class constructor
 
+## To use only Bootstrap grid system with Angular material:
+If you just need to use the bootstrap grid, you can add in your package.json dependencies: "bootstrap": "4.3.1" and npm i then in your styles.scss add @import 'bootstrap/dist/css/bootstrap-grid.min.css'; upside the angular material theme import and there you go, you imported only the grid style without all other stuffs and material theme is still the same.
