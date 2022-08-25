@@ -11,7 +11,7 @@ Generate components:
 ng generate component component-name-to-be-generated
 
 Para receber propriedades configuradas na tag html do componente:
-import { Component, OnInit, Input } from '@angular/core';
+  import { Component, OnInit, Input } from '@angular/core';
 
 @Input() hero?: Hero; # hero é a propriedade
 
